@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8">
+<title> القوائم</title>
+<style> 
+#shopping_list >li 
+{
+color:blue;
+}
+#shopping_list > .completed , #goal_list > .completed
+{
+color: grey;
+}
+li b
+{
+color:green;
+}
+</style>
+</head>
+<body>
+<h1> قائمة المشتريات </h1>
+<ul id="shopping_list">
+<li class="completed"> <s> تفاح </s> </li>
+<li> جزر</li>
+<li> برتقال</li>
+</ul>
+<h1>أهدافي هذا الشهر </h1>
+<ul id="goal_list">
+<li class="completed"> <s> تعلم أساسيات الويب </s> </li>
+<li>تعلم منصات التطوير </li>
+<li> <b>إنشاء مشروع أولي</b> </li>
+</ul>
+</body>
+</html>
